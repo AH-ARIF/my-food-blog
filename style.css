@@ -1,6 +1,12 @@
 body{
     margin: 0;
 }
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px
+}
 span{
     color: orangered;
 }
@@ -11,26 +17,39 @@ span{
     border-radius: 25px;
     background-image: linear-gradient(salmon, orangered);
 }
-.section{
-    margin: 5%;
-    display: flex;
-    
 
+.flex{
+    display: flex;
 }
 .half{
-    width: 70%;
+    width: 50%;
     padding: 10%;
+    
 }
 .half img{
-    width: 80%;
-}
-.bg2{
-    background-image: url(7.png);
-    margin: 0;
-    background-repeat: no-repeat;
-   background-size: 100%;
-   
-}
-.middle-photo{
+    width: 100%;
     
+}
+.banner{
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    background-size: 1903px 528px;
+    
+}
+#recipie{
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+.shadow{
+    box-shadow: 0 0 20px gray;
+    border-radius: 8px;
+    padding: 9px;
+}
+#footer{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
