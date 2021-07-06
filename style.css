@@ -11,6 +11,13 @@ span{
 .section{
     margin: 5%;
     display: flex;
-    position: 50% 50%;
+    
 
+}
+.half{
+    width: 70%;
+    padding: 10%;
+}
+.half img{
+    width: 80%;
 }
